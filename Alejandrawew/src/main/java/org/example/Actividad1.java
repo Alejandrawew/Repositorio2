@@ -29,7 +29,7 @@ public class Actividad1 {
 
              if (num1==num2){
                  System.out.println("error 420");
-                 
+
              }
 
             }
