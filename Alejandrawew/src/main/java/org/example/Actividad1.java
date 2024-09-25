@@ -15,19 +15,30 @@ public class Actividad1 {
         String curso = entrada.next();
         System.out.println("Hola "+ nombre + " bienvenido a "+ curso);
 
-        System.out.println("Introduce un número");
-        int num1 =entrada.nextInt();
 
-        System.out.println("Introduce otro número");
-        int num2 =entrada.nextInt();
+        int num1 = 0;
 
-        int resultado =  num1+num2;
+        int num2 = 0;
 
-        System.out.println (" El resultado de la suma es " + resultado);
+        while(num1==num2) {
+            System.out.println("Introduce un número");
+             num1 =entrada.nextInt();
+
+            System.out.println("Introduce otro número...");
+             num2 =entrada.nextInt();
+
+             if (num1==num2){
+                 System.out.println("error 420");
+                 
+             }
+
+            }
+        int resultado = num1 + num2;
+        System.out.println("El resultado de la suma es " + resultado);
 
 
-
+        }
     }
 
 
-}
+
