@@ -8,8 +8,14 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-      Actividad1 actividad1 = new Actividad1();
-      actividad1.actividad_inicial();
+      //Actividad1 actividad1 = new Actividad1();
+     // actividad1.actividad_inicial();
+
+      operadores operadores = new operadores();
+      // operadores.aritmeticos();//
+        // operadores.asignacion();//
+        // operadores.comparacion();//
+        operadores.logicos();
 
 
 
