@@ -18,8 +18,12 @@ public class Main {
     //Ejercicio1 ejercicio1 = new Ejercicio1();
     //ejercicio1.pedir_numero();//
 
-    Atividad3 atividad3 = new Atividad3();
-   atividad3.votante();
+    //Atividad3 atividad3 = new Atividad3();
+   //atividad3.votante();
+
+        Multiplicar3numeros multiplicar3numeros = new Multiplicar3numeros();
+        multiplicar3numeros.multiplicaciones();
+        
 
 
 
