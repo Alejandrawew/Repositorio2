@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Scanner;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -11,11 +9,21 @@ public class Main {
       //Actividad1 actividad1 = new Actividad1();
      // actividad1.actividad_inicial();
 
-      operadores operadores = new operadores();
+      //operadores operadores = new operadores();
       // operadores.aritmeticos();//
         // operadores.asignacion();//
         // operadores.comparacion();//
-        operadores.logicos();
+        //operadores.logicos();//
+
+    //Ejercicio1 ejercicio1 = new Ejercicio1();
+    //ejercicio1.pedir_numero();//
+
+    Atividad3 atividad3 = new Atividad3();
+   atividad3.votante();
+
+
+
+
 
 
 
